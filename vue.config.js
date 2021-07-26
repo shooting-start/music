@@ -2,6 +2,10 @@ module.exports = {
     lintOnSave: false,
     assetsDir: 'static',
     parallel: false,
+    publicPath: './',
+    // publicPath: process.env.NODE_ENV === 'production'
+    // ? '/music/'
+    // : './',
     devServer: {
         // 设置代理
         proxy: {

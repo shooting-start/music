@@ -1,19 +1,20 @@
 # music
 
-## Project setup
-```
-npm install
-```
+## 模仿网易云PC端的一个音乐播放器，很多功能没有写
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+现在有的功能：
+- 手机号+密码登录
+- 发现音乐
+    - 推荐
+    - 排行榜
+    - 歌单
+    - 歌手（有点bug）
+    - 新歌上架
+- 视频
+    - 视频
+    - MV
+    - 视频/MV详情
+- 我喜欢的歌曲
+- 独家放送
+- 搜索
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
